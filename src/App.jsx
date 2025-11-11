@@ -7,7 +7,11 @@ function App() {
   return <HashRouter>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
-      <Route path="/about" element={<AboutUs/>}></Route>
+      <Route path="/about" element={<AboutWISE/>}></Route>
+      <Route path="/community" element={<CommunityLife/>}></Route>
+      <Route path="/staff" element={<FacultyStaff/>}></Route>
+      <Route path="/connect" element={<StayConnected/>}></Route>
+      <Route path="/events" element={<UpcomingEvents/>}></Route>
     </Routes>
   </HashRouter>
  
