@@ -1,10 +1,19 @@
-import { HashRouter, Route, Routes } from 'react-router'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './components/Home'
-import AboutUs from './components/AboutUs'
+
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import AboutWISE from './pages/AboutWISE';
+import CommunityLife from './pages/CommunityLife';
+import FacultyStaff from './pages/FacultyStaff';
+import StayConnected from './pages/StayConnected';
+import UpcomingEvents from './pages/StayConnected';
 
 function App() {
   return <HashRouter>
+    <NavBar/>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<AboutWISE/>}></Route>
@@ -13,6 +22,7 @@ function App() {
       <Route path="/connect" element={<StayConnected/>}></Route>
       <Route path="/events" element={<UpcomingEvents/>}></Route>
     </Routes>
+    <Footer/>
   </HashRouter>
  
 }
