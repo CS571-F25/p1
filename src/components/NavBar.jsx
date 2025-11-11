@@ -1,23 +1,28 @@
 import React from "react";
-import {NavBar, Nav, Container} from "react-bootstrap";
+import {Navbar, Nav, Container} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 export default function NavBar() {
     return (
-        <NavBar bg="light" expand="lg" sticky="top">
+        <Navbar bg="light" expand="lg" className="py-3 shadow-sm" sticky="top">
             <Container>
-                <NavBar.Brand as={Link} to="/" style={{color:"blue", fontweight:"bold"}}>
+                <Navbar.Brand as={Link} to="/" style={{color:"blue", fontweight:"bold"}}>
                     WISE @ UW-Madison 
-                </NavBar.Brand>
-                <NavBar.Toggle aria-controls="navbar-nav"/>
-                <NavBar.Collapse id="ms-auto">
-                    <Nav.Link as={Link} to="/about">About</Nav.Link>
-                    <Nav.Link as={Link} to="/community">Community Life</Nav.Link>
-                    <Nav.Link as={Link} to="/events">Upcoming Events</Nav.Link>
-                    <Nav.Link as={Link} to="/faculty">Faculty & Staff</Nav.Link>
-                    <Nav.Link as={Link} to="/connect">Stay Connected</Nav.Link>
-                </NavBar.Collapse>
+                </Navbar.Brand>
+
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/about">About</Nav.Link>
+                        <Nav.Link as={Link} to="/community">Community Life</Nav.Link>
+                        <Nav.Link as={Link} to="/events">Upcoming Events</Nav.Link>
+                        <Nav.Link as={Link} to="/faculty">Faculty & Staff</Nav.Link>
+                        <Nav.Link as={Link} to="/connect">Stay Connected</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
-        </NavBar>
-    )
+        </Navbar>
+    );
 }
