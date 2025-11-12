@@ -1,0 +1,36 @@
+{
+    "event1":{
+        "date":"11-14-2025",
+        "start_time": "12:30",
+        "event_name": "Spring Course Enrollment Q&A",
+        "event_desc": "WISE Peer Mentors & an advisor from Cross-College Advising Services will be there to answer all of your questions!"
+    },
+
+    "event2":{
+        "date":"11-15-2025",
+        "start_time": "10:00",
+        "event_name": "First Nations Cultural Land Tour",
+        "event_desc": "A walking tour of the 12,000+ years of history along the shores of Lake Mendota."
+    },
+
+    "event3":{
+        "date":"11-25-2025",
+        "start_time": "17:30",
+        "event_name": "WISE Friendsgiving",
+        "event_desc": "RSVP for a Thanksgiving meal with WISE!"
+    },
+
+    "event4":{
+        "date":"10-31-2025",
+        "start_time": "12:00",
+        "event_name": "Pumpkin Felting with UHS",
+        "event_desc": "Make your own felted pumpkin in collaboation with UHS"
+    },
+
+    "event5":{
+        "date":"10-12-2025",
+        "start_time": "13:00",
+        "event_name": "A Trip to the Henry Vilas Zoo",
+        "event_desc": "Meet in the lobby and bring your bus pass and join us for a day at the zoo"
+    }
+}
