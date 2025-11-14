@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Jacqueline Whitley",
+        "title": "Program Manager",
+        "image": "src/assets/images/jac_w.png",
+        "email": "jacqueline.whitley@housing.wisc.edu"
+    },
+    {
+        "name": "Aurelie Rakotondrafara",
+        "title": "Faculty Director",
+        "image": "src/assets/images/aurelie_r.png",
+        "email": "rakotondrafara@wisc.edu"
+    },
+    {
+        "name": "Briana Burton",
+        "title": "Faculty Director",
+        "image": "src/assets/images/briana_b.png",
+        "email": "briana.burton@wisc.edu"
+    },
+    {
+        "name": "Ellise Markevitch",
+        "title": "Student Program Lead",
+        "image": "src/assets/images/ellise_m.png",
+        "email": "markevitch@wisc.edu"
+    },
+    {
+        "name": "Sara Reuter",
+        "title": "Student Program Lead",
+        "image": "src/assets/images/sara_r.png",
+        "email": "smreuter2@wisc.edu"
+    },
+    {
+        "name": "Shamita Senthil Kumar",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/shamita_s.png",
+        "email": "senthilkuma6@wisc.edu"
+    },
+    {
+        "name": "Bella Villanueva",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/bella_v.png",
+        "email": "imvillanueva@wisc.edu"
+    },
+    {
+        "name": "Eliana Bernat",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/elliana_b.png",
+        "email": "ebernat@wisc.edu"
+    },
+    {
+        "name": "Ira Hande",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/ira_h.png",
+        "email": "ihande@wisc.edu"
+    },
+    {
+        "name": "Lexi Ridenour",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/lexi_r.png",
+        "email": "aridenour@wisc.edu"
+    }, 
+    {
+        "name": "Maddie Mickiewicz",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/maddie_m.png",
+        "email": "mickiewicz@wisc.edu"
+    },
+    {
+        "name": "Olivia Knopke-Mooney",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/olivia_k.png",
+        "email": "knopkemooney@wisc.edu"
+    },
+    {
+        "name": "Nura Hassan",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/nura_h.png",
+        "email": "nhassan6@wisc.edu"
+    },
+    {
+        "name": "Kashika Mahajan",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/kashika_m.png",
+        "email": "kmahajan7@wisc.edu"
+    }, 
+    {
+        "name": "Tess Bottoms",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/tess_b.png",
+        "email": "ebottoms@wisc.edu"
+    },
+    {
+        "name": "MC Dougherty",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/mc_d.png",
+        "email": "mdougherty@wisc.edu"
+    },
+    {
+        "name": "Sudi Pandey",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/sudi_p.png",
+        "email": "spandey@wisc.edu"
+    },
+    {
+        "name": "Kylie McCarthy",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/kylie_m.png",
+        "email": "kamccarthy23@wisc.edu"
+    },
+    {
+        "name": "Maria Martinex",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/maria_m.png",
+        "email": "mgmartinez4@wisc.edu"
+    },
+    {
+        "name": "Sarah Cooper",
+        "title": "Peer Mentor",
+        "image": "src/assets/images/sarah_c.png",
+        "email": "sicooper@wisc.edu"
+    }
+]

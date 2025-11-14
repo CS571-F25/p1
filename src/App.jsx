@@ -9,7 +9,7 @@ import AboutWISE from './pages/AboutWISE';
 import CommunityLife from './pages/CommunityLife';
 import FacultyStaff from './pages/FacultyStaff';
 import StayConnected from './pages/StayConnected';
-import UpcomingEvents from './pages/StayConnected';
+import UpcomingEvents from './pages/UpcomingEvents';
 
 function App() {
   return <HashRouter>
