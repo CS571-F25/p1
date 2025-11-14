@@ -1,0 +1,120 @@
+{
+    "event1":{
+        "date":"11-14-2025",
+        "start_time": "12:30",
+        "event_name": "Spring Course Enrollment Q&A",
+        "event_desc": "WISE Peer Mentors & an advisor from Cross-College Advising Services will be there to answer all of your questions!"
+    },
+
+    "event2":{
+        "date":"11-15-2025",
+        "start_time": "10:00",
+        "event_name": "First Nations Cultural Land Tour",
+        "event_desc": "A walking tour of the 12,000+ years of history along the shores of Lake Mendota."
+    },
+
+    "event3":{
+        "date":"11-25-2025",
+        "start_time": "17:30",
+        "event_name": "WISE Friendsgiving",
+        "event_desc": "RSVP for a Thanksgiving meal with WISE!"
+    },
+
+    "event4":{
+        "date":"10-31-2025",
+        "start_time": "12:00",
+        "event_name": "Pumpkin Felting with UHS",
+        "event_desc": "Make your own felted pumpkin in collaboation with UHS"
+    },
+
+    "event5":{
+        "date":"10-12-2025",
+        "start_time": "13:00",
+        "event_name": "A Trip to the Henry Vilas Zoo",
+        "event_desc": "Meet in the lobby and bring your bus pass and join us for a day at the zoo"
+    },
+
+    "event6":{
+        "date":"10-05-2025",
+        "start_time": "12:00",
+        "event_name": "Pickleball Tournament",
+        "event_desc": "Sign up for a team pickleball tournament"
+    },
+
+    "event7":{
+        "date":"10-02-2025",
+        "start_time": "16:45",
+        "event_name": "Chazen Student Night",
+        "event_desc": "Walk together to the Toshiko Takaezu: Worlds Within exhibit. Includes hands-on weaving and sculpting to take home!"
+    },
+
+    "event8":{
+        "date":"09-25-2025",
+        "start_time": "15:30",
+        "event_name": "Housing Q&A",
+        "event_desc": "Interested in learning how housing works for next year? The Peer Mentors have advice, resources, and answers for you!"
+    },
+
+    "event9":{
+        "date":"09-25-2025",
+        "start_time": "18:30",
+        "event_name": "Dogs on Call",
+        "event_desc": "Enjoy time with our furry friends from Dogs on Call"
+    },
+
+    "event10":{
+        "date":"09-013-2025",
+        "start_time": "8:00",
+        "event_name": "Trip to the Farmer's Market",
+        "event_desc": "Join us for a trip to the Dane County Farmer's Market"
+    },
+
+    "event11":{
+        "date":"09-10-2025",
+        "start_time": "16:45",
+        "event_name": "Trip to the Student Org fair",
+        "event_desc": "Walk over with us to the Kohl Center for the Student Org fair"
+    },
+
+    "event12":{
+        "date":"09-03-2025",
+        "start_time": "9:00",
+        "event_name": "First Day of School Photos",
+        "event_desc": "Come get your first day photos taken!"
+    },
+
+    "event13":{
+        "date":"09-02-2025",
+        "start_time": "18:00",
+        "event_name": "WISE Welcome",
+        "event_desc": "WISE Kickoff Event! Pick up your WISE t-shirt, meet your peer mentor, hear from faculty directors, and enjoy free Ian's Pizza"
+    },
+
+    "event14":{
+        "date":"08-29-2025",
+        "start_time": "10:00",
+        "event_name": "Class Tours",
+        "event_desc": "Find your lecture halls and discussion rooms with peer mentors!"
+    },
+
+    "event15":{
+        "date":"08-28-2025",
+        "start_time": "10:45",
+        "event_name": "The Red Gym Open House",
+        "event_desc": "Walk over to the Red Gym Open House to learn about the Multicultural Student Center, Office of Inclusion, Study Abroad Office, and more!"
+    },
+
+    "event16":{
+        "date":"08-27-2025",
+        "start_time": "15:00",
+        "event_name": "Ice Cream Social",
+        "event_desc": "Ride the bus to Union South for a free scoop of Babcock ice cream!"
+    },
+
+    "event17":{
+        "date":"08-25-2025",
+        "start_time": "17:00",
+        "event_name": "Dinner with Peer Mentors",
+        "event_desc": "Meet your WISE peer mentor for dinner in Liz's Market"
+    }
+}
