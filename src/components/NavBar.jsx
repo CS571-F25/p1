@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, Container} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import logo from "../assets/images/wise-logo-black.png";
+import logo from "../../public/images/wise-logo-black.png"
 
 export default function NavBar() {
     return (

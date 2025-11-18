@@ -3,6 +3,7 @@ import './App.css'
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import ReactionButton from './components/ReactionButton';
 
 import Home from './pages/Home';
 import AboutWISE from './pages/AboutWISE';
@@ -22,6 +23,7 @@ function App() {
       <Route path="/connect" element={<StayConnected/>}></Route>
       <Route path="/events" element={<UpcomingEvents/>}></Route>
     </Routes>
+    <ReactionButton />
     <Footer/>
   </HashRouter>
  

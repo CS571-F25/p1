@@ -35,7 +35,7 @@ export default function UpcomingEvents (props) {
         <br/>
         <br/>
         <br/>
-        <h1>Upcoming Events!</h1>
+        <h1 className = "text-center my-5">Upcoming Events!</h1>
          <Col >
             <Row>
                 {events.map(event => <Col xs={12} sm = {12} md = {6} lg = {6} xl = {4} xxl = {4} key = {event.id}>

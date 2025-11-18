@@ -1,4 +1,4 @@
-import wise_logo from '../assets/images/wise-logo-color.png';
+import wise_logo from "../../public/images/wise-logo-color.png"
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 export default function Home (props) {

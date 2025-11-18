@@ -50,3 +50,55 @@
   text-decoration: none;
   padding: 0.5em;
 }
+
+.reaction-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 90px;
+  height: 90px;
+  padding: 0;
+  background: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s ease;
+  
+}
+
+.reaction-button:active {
+  transform: scale(0.8);
+}
+
+.reaction-img {
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.floating {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 28px;
+  animation: floatUp 2.0s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-20px, -80px) scale(1.2);
+  }
+  100% {
+    transform: translate(0px, -150px) scale(0.8);
+    opacity: 0;
+  }
+}
