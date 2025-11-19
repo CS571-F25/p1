@@ -82,11 +82,14 @@
 }
 
 .floating {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji' !important;
+  font-size: 28px;
+  -webkit-font-smoothing: antialiased;
   position: fixed;
   bottom: 50px;
   right: 50px;
-  font-size: 28px;
-  animation: floatUp 2.0s ease-out forwards;
+  cursor: pointer;
+  animation: floatUp 2s ease-out forwards;
 }
 
 @keyframes floatUp {

@@ -2,121 +2,121 @@
     {
         "name": "Jacqueline Whitley",
         "title": "Program Manager",
-        "image": "public/images/jac_w.png",
+        "image": "jac_w",
         "email": "jacqueline.whitley@housing.wisc.edu"
     },
     {
         "name": "Aurelie Rakotondrafara",
         "title": "Faculty Director",
-        "image": "public/images/aurelie_r.png",
+        "image": "aurelie_r",
         "email": "rakotondrafara@wisc.edu"
     },
     {
         "name": "Briana Burton",
         "title": "Faculty Director",
-        "image": "public/images/briana_b.png",
+        "image": "briana_b",
         "email": "briana.burton@wisc.edu"
     },
     {
         "name": "Ellise Markevitch",
         "title": "Student Program Lead",
-        "image": "public/images/ellise_m.png",
+        "image": "ellise_m",
         "email": "markevitch@wisc.edu"
     },
     {
         "name": "Sara Reuter",
         "title": "Student Program Lead",
-        "image": "public/images/sara_r.png",
+        "image": "sara_r",
         "email": "smreuter2@wisc.edu"
     },
     {
         "name": "Shamita Senthil Kumar",
         "title": "Peer Mentor",
-        "image": "public/images/shamita_s.png",
+        "image": "shamita_s",
         "email": "senthilkuma6@wisc.edu"
     },
     {
         "name": "Bella Villanueva",
         "title": "Peer Mentor",
-        "image": "public/images/bella_v.png",
+        "image": "bella_v",
         "email": "imvillanueva@wisc.edu"
     },
     {
         "name": "Eliana Bernat",
         "title": "Peer Mentor",
-        "image": "public/images/elliana_b.png",
+        "image": "elliana_b",
         "email": "ebernat@wisc.edu"
     },
     {
         "name": "Ira Hande",
         "title": "Peer Mentor",
-        "image": "public/images/ira_h.png",
+        "image": "ira_h",
         "email": "ihande@wisc.edu"
     },
     {
         "name": "Lexi Ridenour",
         "title": "Peer Mentor",
-        "image": "public/images/lexi_r.png",
+        "image": "lexi_r",
         "email": "aridenour@wisc.edu"
     }, 
     {
         "name": "Maddie Mickiewicz",
         "title": "Peer Mentor",
-        "image": "public/images/maddie_m.png",
+        "image": "maddie_m",
         "email": "mickiewicz@wisc.edu"
     },
     {
         "name": "Olivia Knopke-Mooney",
         "title": "Peer Mentor",
-        "image": "public/images/olivia_k.png",
+        "image": "olivia_k",
         "email": "knopkemooney@wisc.edu"
     },
     {
         "name": "Nura Hassan",
         "title": "Peer Mentor",
-        "image": "public/images/nura_h.png",
+        "image": "nura_h",
         "email": "nhassan6@wisc.edu"
     },
     {
         "name": "Kashika Mahajan",
         "title": "Peer Mentor",
-        "image": "public/images/kashika_m.png",
+        "image": "kashika_m",
         "email": "kmahajan7@wisc.edu"
     }, 
     {
         "name": "Tess Bottoms",
         "title": "Peer Mentor",
-        "image": "public/images/tess_b.png",
+        "image": "tess_b",
         "email": "ebottoms@wisc.edu"
     },
     {
         "name": "MC Dougherty",
         "title": "Peer Mentor",
-        "image": "public/images/mc_d.png",
+        "image": "mc_d",
         "email": "mdougherty@wisc.edu"
     },
     {
         "name": "Sudi Pandey",
         "title": "Peer Mentor",
-        "image": "public/images/sudi_p.png",
+        "image": "sudi_p",
         "email": "spandey@wisc.edu"
     },
     {
         "name": "Kylie McCarthy",
         "title": "Peer Mentor",
-        "image": "public/images/wise-logo-black.png",
+        "image": "wise_logo_black",
         "email": "kamccarthy23@wisc.edu"
     },
     {
-        "name": "Maria Martinex",
+        "name": "Maria Martinez",
         "title": "Peer Mentor",
-        "image": "public/images/maria_m.png",
+        "image": "maria_m",
         "email": "mgmartinez4@wisc.edu"
     },
     {
         "name": "Sarah Cooper",
         "title": "Peer Mentor",
-        "image": "public/images/sarah_c.png",
+        "image": "sarah_c",
         "email": "sicooper@wisc.edu"
     }
 ]

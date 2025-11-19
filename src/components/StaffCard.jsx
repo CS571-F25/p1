@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import images from "../assets/images/images.js"
 
 export default function StaffCard(props) {
   return (
@@ -11,7 +12,7 @@ export default function StaffCard(props) {
 
         {/* Staff Picture */}
       <Card.Img
-        src = {props.image}
+        src = {images[props.image]}
         alt = {props.name}
         style = {{
           height: "200px", objectFit: "cover"}}/>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../public/images/wise-logo-color.png"
+import logo from "../assets/images/wise-logo-color.png"
 
 export default function ReactionButton() {
   const [float, setFloat] = useState([]);
