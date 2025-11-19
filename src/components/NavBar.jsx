@@ -25,7 +25,7 @@ export default function NavBar() {
                         <Nav.Link as = {Link} to="/">Home</Nav.Link>
                         <Nav.Link as = {Link} to="/about">About</Nav.Link>
                         <Nav.Link as = {Link} to="/community">Community Life</Nav.Link>
-                        <Nav.Link as = {Link} to="/events">Upcoming Events</Nav.Link>
+                        <Nav.Link as = {Link} to="/events">Events</Nav.Link>
                         <Nav.Link as = {Link} to="/staff">Faculty & Staff</Nav.Link>
                         <Nav.Link as = {Link} to="/connect">Stay Connected</Nav.Link>
                     </Nav>
