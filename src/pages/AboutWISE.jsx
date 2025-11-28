@@ -147,9 +147,9 @@ export default function AboutWISE (props) {
                             information, academic and career development resources and support.</p>
                             <ul>
                                 <li>Must have lived in the WISE Residential Learning Community.</li>
-                                <li>By start of employment must have completed 2 semesters of college post high school (summer school does not count as a semester). Transfer students must submit transcripts from all current/previous institutions to reflect the completion of two semesters post high school. </li>
+                                <li>By start of employment must have completed 2 semesters of college post high school (summer school does not count as a semester). </li>
                                 <li>During pre-employment and employment, a student staff member must abide by the University Residence Halls Contract, the Student Housing Handbook and the University of Wisconsin System academic and non-academic policies and expectations. </li>
-                                <li>Must be able to attend training on the dates </li>
+                                <li>Must be able to attend all training dates </li>
                                 <li>All applicants must be currently enrolled and maintain enrollment through the employment period.</li>
                             </ul>
                             <p>More info can be found <a href="https://services.housing.wisc.edu/hrapp/jobDescription/show/5183?printable=true">here</a></p>
