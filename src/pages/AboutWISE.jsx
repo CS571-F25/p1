@@ -129,13 +129,13 @@ export default function AboutWISE (props) {
                     </Card>
                 </Col>
                 <Col md={6} sm={12}>
-                    <Image src="/p1/public/community_life/seminar_1.png" alt="WISE Seminar" 
+                    <Image src="/p1/community_life/seminar_1.png" alt="WISE Seminar" 
                     fluid style={{borderRadius:"8px", width:"100%", height:"500px", objectFit:"cover", objectPosition:"bottom"}}/>
                 </Col>
             </Row>
             <Row className="mb-4">
                 <Col md={6} sm={12}>
-                    <Image src="\p1\public\community_life\peer_mentors.png" alt="WISE Seminar" 
+                    <Image src="/p1/community_life/peer_mentors.png" alt="WISE Seminar" 
                     fluid style={{borderRadius:"8px", width:"100%", height:"500px", objectFit:"cover", objectPosition:"bottom"}}/>
                 </Col>
                 <Col md={6} sm={12}>
