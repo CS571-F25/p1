@@ -2,7 +2,7 @@ import React, { useEffect, useState} from "react"
 import { Container, Row, Col} from "react-bootstrap";
 import EventList from "../components/EventList";
 
-export default function UpcomingEvents (props) {
+export default function WISEEvents (props) {
     const [events, setEvents] = useState([]);
 
     const loadMessages = () => {
@@ -35,7 +35,7 @@ export default function UpcomingEvents (props) {
         <br/>
         <br/>
         <br/>
-        <h1 className = "text-center my-5">Upcoming Events!</h1>
+        <h1 className = "text-center my-5">WISE Events!</h1>
          <Col >
             <Row>
                 {events.map(event => <Col xs={12} sm = {12} md = {6} lg = {6} xl = {4} xxl = {4} key = {event.id}>
