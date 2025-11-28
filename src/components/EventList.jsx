@@ -10,5 +10,4 @@ export default function EventList (props) {
         <p>{new Date(props.date).toLocaleString([], {year: 'numeric', month: 'numeric', day: 'numeric'})}</p>
         <p>Starting at {props.start_time}</p>
     </Card>
-
 }

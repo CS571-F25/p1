@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import images from "../assets/images/images.js"
+import images from "../assets/images/export_staff.js"
 
 export default function StaffCard(props) {
   return (
