@@ -1,5 +1,5 @@
 import React from "react";
-export default function Footer (props) {
+export default function Footer () {
     return <footer>
         <div class ="footerContent">
             <a href="https://www.housing.wisc.edu/" target="_blank">University Housing</a>

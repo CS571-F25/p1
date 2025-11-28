@@ -17,10 +17,8 @@ import sarah_c from "./sarah_c.png";
 import shamita_s from "./shamita_s.png";
 import sudi_p from "./sudi_p.png";
 import tess_b from "./tess_b.png";
-import wise_logo_black from "./wise-logo-black.png";
-import wise_logo_color from "./wise-logo-color.png";
-
-
+import wise_logo_black from "../wise-logo-black.png";
+import wise_logo_color from "../wise-logo-color.png";
 
 export default {
   jac_w,

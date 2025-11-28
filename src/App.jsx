@@ -10,7 +10,7 @@ import AboutWISE from './pages/AboutWISE';
 import CommunityLife from './pages/CommunityLife';
 import FacultyStaff from './pages/FacultyStaff';
 import StayConnected from './pages/StayConnected';
-import UpcomingEvents from './pages/UpcomingEvents';
+import WISEEvents from './pages/WISEEvents';
 
 function App() {
   return <HashRouter>
@@ -21,7 +21,7 @@ function App() {
       <Route path="/community" element={<CommunityLife/>}></Route>
       <Route path="/staff" element={<FacultyStaff/>}></Route>
       <Route path="/connect" element={<StayConnected/>}></Route>
-      <Route path="/events" element={<UpcomingEvents/>}></Route>
+      <Route path="/events" element={<WISEEvents/>}></Route>
     </Routes>
     <ReactionButton />
     <Footer/>

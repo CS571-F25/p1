@@ -1,0 +1,183 @@
+[
+    {
+        "idx": 1,
+        "image": "/p1/community_life/badger_game_1.png", 
+        "caption": "Badger Game Day", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 2,
+        "image": "/p1/community_life/badger_game_2.png", 
+        "caption": "Badger Game Day", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 3,
+        "image": "/p1/community_life/chazen_1.png", 
+        "caption": "Visiting the Chazen Art Museum", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 4,
+        "image": "/p1/community_life/crafts_1.png", 
+        "caption": "Making Friendship bracelets", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 5,
+        "image": "/p1/community_life/crafts_2.png", 
+        "caption": "Decorating Name Pennants", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 6,
+        "image": "/p1/community_life/crafts_3.png", 
+        "caption": "Painting Night", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 7,
+        "image": "/p1/community_life/dogs_call_1.png", 
+        "caption": "Relaxing with Dogs on Call therapy dogs", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 8,
+        "image": "/p1/community_life/farmers_1.png", 
+        "caption": "Visiting Farmers Market", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 9,
+        "image": "/p1/community_life/farmers_2.png", 
+        "caption": "Visiting Farmers Market", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 10,
+        "image": "/p1/community_life/friendsgiving_1.png", 
+        "caption": "WISE Friendsgiving", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 11,
+        "image": "/p1/community_life/friendsgiving_2.png", 
+        "caption": "WISE Friendsgiving", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 12,
+        "image": "/p1/community_life/friendsgiving_3.png", 
+        "caption": "WISE Friendsgiving", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 13,
+        "image": "/p1/community_life/housing_qna_1.png", 
+        "caption": "Housing Info Session and Q&A", 
+        "category": "understand"
+    }, 
+    {
+        "idx": 14,
+        "image": "/p1/community_life/patio_1.png", 
+        "caption": "WISE Welcome on the patio", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 15,
+        "image": "/p1/community_life/patio_2.png", 
+        "caption": "WISE Welcome on the patio", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 16,
+        "image": "/p1/community_life/patio_3.png", 
+        "caption": "WISE Peer Mentors", 
+        "category": "understand"
+    }, 
+    {
+        "idx": 17,
+        "image": "/p1/community_life/patio_4.png", 
+        "caption": "WISE Welcome on the patio", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 18,
+        "image": "/p1/community_life/peer_mentors.png", 
+        "caption": "WISE Peer Mentors", 
+        "category": "staff"
+    }, 
+    {
+        "idx": 19,
+        "image": "/p1/community_life/pickleball_1.png", 
+        "caption": "Playing Pickleball", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 20,
+        "image": "/p1/community_life/seminar_1.png", 
+        "caption": "WISE Seminar", 
+        "category": "staff"
+    }, 
+    {
+        "idx": 21,
+        "image": "/p1/community_life/seminar_2.png", 
+        "caption": "WISE Seminar", 
+        "category": "staff"
+    }, 
+    {
+        "idx": 22,
+        "image": "/p1/community_life/seminar_3.png", 
+        "caption": "WISE Seminar", 
+        "category": "staff"
+    }, 
+    {
+        "idx": 23,
+        "image": "/p1/community_life/tote_bag_1.png", 
+        "caption": "Decorating tote bags", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 24,
+        "image": "/p1/community_life/union_1.png", 
+        "caption": "Visiting Memorial Union", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 25,
+        "image": "/p1/community_life/union_2.png", 
+        "caption": "Visiting Memorial Union", 
+        "category": "explore"
+    }, 
+    {
+        "idx": 26,
+        "image": "/p1/community_life/wise_den_1.png", 
+        "caption": "WISE Den", 
+        "category": "connect"
+    }, 
+    {
+        "idx": 27,
+        "image": "/p1/community_life/wise_merch.png", 
+        "caption": "WISE Custom Merch", 
+        "category": "staff"
+    }, 
+    {
+        "idx": 28,
+        "image": "/p1/community_life/wizzy_1.png", 
+        "caption": "Wizzy goes ice skating", 
+        "category": "wizzy"
+    }, 
+    {
+        "idx": 29,
+        "image": "/p1/community_life/wizzy_2.png", 
+        "caption": "Wizzy the official WISE mascot", 
+        "category": "wizzy"
+    }, 
+    {
+        "idx": 30,
+        "image": "/p1/community_life/wizzy_3.png", 
+        "caption": "Wizzy goes to chem class", 
+        "category": "wizzy"
+    }
+    
+]
