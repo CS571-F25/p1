@@ -75,7 +75,7 @@
         "idx": 13,
         "image": "/p1/community_life/housing_qna_1.png", 
         "caption": "Housing Info Session and Q&A", 
-        "category": "understand"
+        "category": "staff"
     }, 
     {
         "idx": 14,
@@ -93,7 +93,7 @@
         "idx": 16,
         "image": "/p1/community_life/patio_3.png", 
         "caption": "WISE Peer Mentors", 
-        "category": "understand"
+        "category": "staff"
     }, 
     {
         "idx": 17,
@@ -165,19 +165,19 @@
         "idx": 28,
         "image": "/p1/community_life/wizzy_1.png", 
         "caption": "Wizzy goes ice skating", 
-        "category": "wizzy"
+        "category": "explore"
     }, 
     {
         "idx": 29,
         "image": "/p1/community_life/wizzy_2.png", 
         "caption": "Wizzy the official WISE mascot", 
-        "category": "wizzy"
+        "category": "staff"
     }, 
     {
         "idx": 30,
         "image": "/p1/community_life/wizzy_3.png", 
         "caption": "Wizzy goes to chem class", 
-        "category": "wizzy"
+        "category": "connect"
     }
     
 ]
