@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Button} from "react-bootstrap";
+import { Modal, Button, Image} from "react-bootstrap";
 import { useContext} from "react"
 import EventDataContext from "../contexts/EventDataContext";
 
@@ -22,8 +22,9 @@ export default function EventModal(props) {
           {selectedEvent.event_name}
         </Modal.Title>
     </Modal.Header>
-    <Modal.Body >
-      <img src={selectedEvent.image} className="img-fluid d-block mx-auto" alt={description} height={275} width={275} /> 
+    <Modal.Body>
+      <Image src={selectedEvent.image} className="img-fluid d-block mx-auto" alt={description} 
+        style={{width: 275, height: 275}}/>
       <h3>Join WISE on {selectedEvent.date} at {selectedEvent.start_time} for {selectedEvent.event_name}!</h3>
       <p>{selectedEvent.event_desc}</p>
       
