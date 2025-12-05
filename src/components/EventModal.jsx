@@ -24,7 +24,7 @@ export default function EventModal(props) {
     </Modal.Header>
     <Modal.Body>
       <Image src={selectedEvent.image} className="img-fluid d-block mx-auto" alt={description} 
-        style={{width: 275, height: 275}}/>
+        style={{width: 300, height: 325}}/>
       <h3>Join WISE on {selectedEvent.date} at {selectedEvent.start_time} for {selectedEvent.event_name}!</h3>
       <p>{selectedEvent.event_desc}</p>
       
