@@ -9,8 +9,8 @@
     },
     {
         "id": "event2",
-        "date":"12-18-2025",
-        "start_time": "23:59",
+        "date":"12-11-2025",
+        "start_time": "19:00",
         "event_name": "What Is Your $500 Idea?",
         "event_desc": "If you had 500 dollars, what kind of event would you host? Let us know your $500 ideas now!",
         "image": "/p1/src/assets/images/event_photos/500_idea.png"
