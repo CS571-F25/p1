@@ -1,120 +1,201 @@
-{
-    "event1":{
-        "date":"11-14-2025",
-        "start_time": "12:30",
-        "event_name": "Spring Course Enrollment Q&A",
-        "event_desc": "WISE Peer Mentors & an advisor from Cross-College Advising Services will be there to answer all of your questions!"
+[
+     {
+        "id": "event1",
+        "date":"1-20-2025",
+        "start_time": "16:30",
+        "event_name": "WISE Spring Seminar",
+        "event_desc": "Join us in the Spring Seminar for more an in depth exploration in our themes of professional development, community building, and exploring what it means to be an underrepresented person in STEM.",
+        "image": "/p1/src/assets/images/event_photos/seminar_sp26.png"
     },
-
-    "event2":{
-        "date":"11-15-2025",
-        "start_time": "10:00",
-        "event_name": "First Nations Cultural Land Tour",
-        "event_desc": "A walking tour of the 12,000+ years of history along the shores of Lake Mendota."
+    {
+        "id": "event2",
+        "date":"12-18-2025",
+        "start_time": "23:59",
+        "event_name": "What Is Your $500 Idea?",
+        "event_desc": "If you had 500 dollars, what kind of event would you host? Let us know your $500 ideas now!",
+        "image": "/p1/src/assets/images/event_photos/500_idea.png"
     },
-
-    "event3":{
+    {
+        "id": "event3",
+        "date":"12-11-2025",
+        "start_time": "11:00",
+        "event_name": "Boba Break",
+        "event_desc": "Take a break from studying and enjoy some boba!",
+        "image": "/p1/src/assets/images/event_photos/boba_break.png"
+    },
+    {
+        "id": "event4",
+        "date":"12-3-2025",
+        "start_time": "19:00",
+        "event_name": "Paracord Bracelet Making",
+        "event_desc": "Bring a friend or two, and join us in making paracord bracelets!",
+        "image": "/p1/src/assets/images/event_photos/paracord_bracelet.png"
+    },
+    {
+        "id": "event5",
         "date":"11-25-2025",
         "start_time": "17:30",
         "event_name": "WISE Friendsgiving",
-        "event_desc": "RSVP for a Thanksgiving meal with WISE!"
+        "event_desc": "RSVP for a Thanksgiving meal with WISE!",
+        "image": "/p1/src/assets/images/event_photos/friendsgiving.png"
+    },
+    {
+        "id": "event6",
+        "date":"11-16-2025",
+        "start_time": "1:00",
+        "event_name": "Pumpkin Pie Bake Off",
+        "event_desc": "Lakeshore learning communities bake off time! A cozy event with friendly competition to see who's the batter half of lakeshore.",
+        "image": "/p1/src/assets/images/event_photos/bake_off.png"
+    },
+    {
+        "id": "event7",
+        "date":"11-15-2025",
+        "start_time": "10:00",
+        "event_name": "First Nations Cultural Land Tour",
+        "event_desc": "A walking tour of the 12,000+ years of history along the shores of Lake Mendota.",
+        "image": "/p1/src/assets/images/event_photos/first_nations_tour.png"
     },
 
-    "event4":{
+    {
+        "id": "event8",
+        "date":"11-14-2025",
+        "start_time": "12:30",
+        "event_name": "Spring Course Enrollment Q&A",
+        "event_desc": "WISE Peer Mentors & an advisor from Cross-College Advising Services will be there to answer all of your questions!",
+        "image": "/p1/src/assets/images/event_photos/course_enroll_qna.png"
+    },
+
+    {
+        "id": "event9",
         "date":"10-31-2025",
         "start_time": "12:00",
         "event_name": "Pumpkin Felting with UHS",
-        "event_desc": "Make your own felted pumpkin in collaboation with UHS"
+        "event_desc": "Make your own felted pumpkin in collaboration with UHS!",
+        "image": "/p1/src/assets/images/event_photos/pumpkin_felting.png"
+    },
+    {
+        "id": "event10",
+        "date":"10-17-2025",
+        "start_time": "18:30",
+        "event_name": "Schuster's Farm",
+        "event_desc": "Open to ALL Learning Community residents! Join us at the Schuster's Farm for the corn maze, pumpkin patch, farm animals, smore's, and more!",
+        "image": "/p1/src/assets/images/event_photos/schusters_farm.png"
     },
 
-    "event5":{
+    {
+        "id": "event11",
         "date":"10-12-2025",
         "start_time": "13:00",
         "event_name": "A Trip to the Henry Vilas Zoo",
-        "event_desc": "Meet in the lobby and bring your bus pass and join us for a day at the zoo"
+        "event_desc": "Meet in the lobby and bring your bus pass and join us for a day at the zoo!",
+        "image": "/p1/src/assets/images/event_photos/trip_to_zoo.png"
     },
 
-    "event6":{
+    {
+        "id": "event12",
         "date":"10-05-2025",
         "start_time": "12:00",
         "event_name": "Pickleball Tournament",
-        "event_desc": "Sign up for a team pickleball tournament"
+        "event_desc": "Sign up for a team pickleball tournament!",
+        "image": "/p1/src/assets/images/event_photos/pickleball_tourn.png"
     },
 
-    "event7":{
+    {
+        "id": "event13",
         "date":"10-02-2025",
         "start_time": "16:45",
         "event_name": "Chazen Student Night",
-        "event_desc": "Walk together to the Toshiko Takaezu: Worlds Within exhibit. Includes hands-on weaving and sculpting to take home!"
+        "event_desc": "Walk together to the Toshiko Takaezu: Worlds Within exhibit. Includes hands-on weaving and sculpting to take home!",
+        "image": "/p1/src/assets/images/event_photos/chazen_night.png"
     },
 
-    "event8":{
+    {
+        "id": "event14",
         "date":"09-25-2025",
         "start_time": "15:30",
         "event_name": "Housing Q&A",
-        "event_desc": "Interested in learning how housing works for next year? The Peer Mentors have advice, resources, and answers for you!"
+        "event_desc": "Interested in learning how housing works for next year? The Peer Mentors have advice, resources, and answers for you!",
+        "image": "/p1/src/assets/images/event_photos/housing_qna.png"
     },
 
-    "event9":{
+    {
+        "id": "event15",
         "date":"09-25-2025",
         "start_time": "18:30",
         "event_name": "Dogs on Call",
-        "event_desc": "Enjoy time with our furry friends from Dogs on Call"
+        "event_desc": "Enjoy time with our furry friends from Dogs on Call!",
+        "image": "/p1/src/assets/images/event_photos/dogs_on_call.png"
     },
 
-    "event10":{
+    {
+        "id": "event16",
         "date":"09-013-2025",
         "start_time": "8:00",
         "event_name": "Trip to the Farmer's Market",
-        "event_desc": "Join us for a trip to the Dane County Farmer's Market"
+        "event_desc": "Join us for a trip to the Dane County Farmer's Market!",
+        "image": "/p1/src/assets/images/event_photos/farmers_market.png"
     },
 
-    "event11":{
+    {
+        "id": "event17",
         "date":"09-10-2025",
         "start_time": "16:45",
         "event_name": "Trip to the Student Org fair",
-        "event_desc": "Walk over with us to the Kohl Center for the Student Org fair"
+        "event_desc": "Walk over with us to the Kohl Center for the Student Org fair!",
+        "image": "/p1/src/assets/images/event_photos/student_org_fair.png"
     },
 
-    "event12":{
+    {
+        "id": "event18",
         "date":"09-03-2025",
         "start_time": "9:00",
         "event_name": "First Day of School Photos",
-        "event_desc": "Come get your first day photos taken!"
+        "event_desc": "Come get your first day photos taken!",
+        "image": "/p1/src/assets/images/event_photos/first_day.png"
     },
 
-    "event13":{
+    {
+        "id": "event19",
         "date":"09-02-2025",
         "start_time": "18:00",
         "event_name": "WISE Welcome",
-        "event_desc": "WISE Kickoff Event! Pick up your WISE t-shirt, meet your peer mentor, hear from faculty directors, and enjoy free Ian's Pizza"
+        "event_desc": "WISE Kickoff Event! Pick up your WISE t-shirt, meet your peer mentor, hear from faculty directors, and enjoy free Ian's Pizza",
+        "image": "/p1/src/assets/images/event_photos/wise_welcome.png"
     },
 
-    "event14":{
+    {
+        "id": "event20",
         "date":"08-29-2025",
         "start_time": "10:00",
         "event_name": "Class Tours",
-        "event_desc": "Find your lecture halls and discussion rooms with peer mentors!"
+        "event_desc": "Find your lecture halls and discussion rooms with peer mentors!",
+        "image": "/p1/src/assets/images/event_photos/class_tours.png"
     },
 
-    "event15":{
+    {
+        "id": "event21",
         "date":"08-28-2025",
         "start_time": "10:45",
         "event_name": "The Red Gym Open House",
-        "event_desc": "Walk over to the Red Gym Open House to learn about the Multicultural Student Center, Office of Inclusion, Study Abroad Office, and more!"
+        "event_desc": "Walk over to the Red Gym Open House to learn about the Multicultural Student Center, Office of Inclusion, Study Abroad Office, and more!",
+        "image": "/p1/src/assets/images/event_photos/red_gym.png"
     },
 
-    "event16":{
+    {
+        "id": "event22",
         "date":"08-27-2025",
         "start_time": "15:00",
         "event_name": "Ice Cream Social",
-        "event_desc": "Ride the bus to Union South for a free scoop of Babcock ice cream!"
+        "event_desc": "Ride the bus to Union South for a free scoop of Babcock ice cream!",
+        "image": "/p1/src/assets/images/event_photos/ice_cream_social.png"
     },
 
-    "event17":{
+    {
+        "id": "event23",
         "date":"08-25-2025",
         "start_time": "17:00",
         "event_name": "Dinner with Peer Mentors",
-        "event_desc": "Meet your WISE peer mentor for dinner in Liz's Market"
+        "event_desc": "Meet your WISE peer mentor for dinner in Liz's Market!",
+        "image": "/p1/src/assets/images/event_photos/dinner.png"
     }
-}
+]

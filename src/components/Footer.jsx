@@ -1,7 +1,7 @@
 import React from "react";
 export default function Footer () {
     return <footer>
-        <div class ="footerContent">
+        <div className ="footerContent">
             <a href="https://www.housing.wisc.edu/" target="_blank">University Housing</a>
             <a href = "https://www.instagram.com/wise_uw/" target="_blank">WISE Instagram</a>
             <a href = "https://www.facebook.com/uwmadison.wise/" target="_blank">WISE Facebook</a>
