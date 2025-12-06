@@ -4,12 +4,11 @@ import { FaInstagram, FaEnvelope } from 'react-icons/fa';
 import { InstagramEmbed } from 'react-social-media-embed';
 
 export default function StayConnected() {
-    /*
     useEffect(() => {
         fetch('https://cs571api.cs.wisc.edu/rest/f25/bucket/inquiries', {
             method: 'GET',
             headers: {
-                'X-CS571-ID': "......",
+                'X-CS571-ID': "bid_2d8ae5d0494a63e6de5d93090a454a4e38fa6809b4d31eb23825e645725421c6",
             },
         })
         .then((res) => res.json())
@@ -34,7 +33,7 @@ export default function StayConnected() {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "X-CS571-ID": "......."
+                "X-CS571-ID": "bid_2d8ae5d0494a63e6de5d93090a454a4e38fa6809b4d31eb23825e645725421c6"
             },
             body: JSON.stringify({ email, question })
         })
@@ -54,7 +53,6 @@ export default function StayConnected() {
             alert("There was an issue with submission, try again!");
         });
     };
-    */
 
   return (
     <div style = {{ backgroundColor: "#93d3e6"}}>
@@ -66,12 +64,12 @@ export default function StayConnected() {
           <Col xs = {12} md = {6} lg = {4}>
             <Card className = "text-center shadow-sm h-100">
               <Card.Body>
-                <Card.Title className = "mb-3">Connect</Card.Title>
+                <Card.Title as = "h2" className = "mb-3">Connect</Card.Title>
                 <div className = "d-flex justify-content-center align-items-center">
-                  <a href = "https://instagram.com" target = "_blank" rel = "noopener noreferrer">
+                  <a href = "https://instagram.com" target = "_blank" rel = "noopener noreferrer" aria-label = "Follow WISE">
                     <FaInstagram className = "me-2" size = {30} />
                   </a>
-                  <h6 className = "m-0">Follow Us @wise_uw</h6>
+                  <h6 as = "h3" className = "m-0">Follow Us @wise_uw</h6>
                 </div>
 
                 <div className = "d-flex justify-content-center align-items-center">
@@ -89,22 +87,26 @@ export default function StayConnected() {
           <Col xs = {12} md = {6} lg = {4}>
             <Card className = "text-center shadow-sm h-100">
               <Card.Body>
-                <Card.Title className = "mb-3">Submit A Question</Card.Title>
+                <Card.Title as = "h2" className = "mb-3">Submit A Question</Card.Title>
                 <p>Want to reach out? Submit an inquiry here and we'll get back to you!</p>
-                <form /* onSubmit={submitQ}*/ >
+                <form  onSubmit={submitQ} >
+                  <label htmlFor = "email" className = "visually-hidden">Email</label>
                   <input
                     name = "email"
                     type = "email"
                     placeholder = "enter your email :)"
                     className = "form-control mb-3"
                     style = {{ borderRadius: "10px" }}
+                    required
                   />
+                  <label htmlFor = "question" className = "visually-hidden">Question</label>
                   <input
                     name = "question"
                     type = "text"
                     placeholder = "ask your question..."
                     className = "form-control mb-3"
                     style = {{ borderRadius: "10px" }}
+                    required
                   />
                   <Button variant = "primary" type = "submit">
                     Submit
@@ -118,7 +120,7 @@ export default function StayConnected() {
           <Col xs = {12} md = {6} lg = {4}>
             <Card className = "text-center shadow-sm h-100">
               <Card.Body>
-                <Card.Title className = "mb-3">Contact</Card.Title>
+                <Card.Title as = "h2" className = "mb-3">Contact</Card.Title>
                 <h6><strong>WISE Seminar - Freshmen</strong></h6>
                 <p>
                   <FaEnvelope className = "me-2" size={25}/>

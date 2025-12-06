@@ -19,7 +19,7 @@ export default function ReactionButton() {
 
   return (
     <>
-      <button className = "reaction-button" onClick = {clickButton}>
+      <button className = "reaction-button" onClick = {clickButton} aria-label = "Reaction Button">
         <img
             src = {logo}
             alt = "WISE Logo"
