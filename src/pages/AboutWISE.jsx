@@ -45,7 +45,7 @@ export default function AboutWISE (props) {
             <Row className="mb-4">
                 <Col md={4} sm={12} className="mb-3">
                     <Card className="p-3 h-100 shadow-sm text-start">
-                        <h3>How to Join</h3>
+                        <h2>How to Join</h2>
                         <p>All items must be completed by your due date (May 1 for most admitted students). 
                             You can be assigned to any learning/theme community even if you did not preference it.</p>
                         <ol>
@@ -59,7 +59,7 @@ export default function AboutWISE (props) {
                 </Col>
                 <Col md={4} sm={12} className="mb-3">
                     <Card className="p-3 h-100 shadow-sm text-start">
-                        <h3>Community Goals</h3>
+                        <h2>Community Goals</h2>
                         <ul>
                             <li>
                                 Build a strong community with other WISE students (past and present), UW-Madison 
@@ -74,7 +74,7 @@ export default function AboutWISE (props) {
                             <li>Expose students to different areas of study and research</li>
                             <li>Develop skills that will support students' success as a college student and future professional</li>
                         </ul>
-                        {/* <h3>Community Expectations</h3>
+                        {/* <h2>Community Expectations</h2>
                         <ul>
                             <li>Acknowledge that the WISE first-year seminar is an integral part of the WISE 
                                 experience and agree to attend at least one semester of the seminar.
@@ -90,7 +90,7 @@ export default function AboutWISE (props) {
                 </Col>
                 <Col md={4} sm={12} className="mb-3">
                     <Card className="p-3 h-100 shadow-sm text-start">
-                        <h3>Activities & Events</h3>
+                        <h2>Activities & Events</h2>
                         <p>
                             WISE integrates a regular schedule of social and enrichment activities including 
                             community building events, lab and research tours, co-curricular programming with 

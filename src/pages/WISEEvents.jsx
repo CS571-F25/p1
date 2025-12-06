@@ -16,7 +16,7 @@ export default function WISEEvents (props) {
     });
     
     return <Container style={{paddingTop: "25px", marginBottom:"2rem"}}>
-        <h1 className = "text-center my-5">WISE Events!</h1>
+        <h1 className = "text-center my-5">WISE Events</h1>
         <DropdownButton id="dropdown-basic-button" title="Sort Date By">
             <Dropdown.Item onClick={() => setSortOrder("asc")}>Oldest to Newest</Dropdown.Item>
             <Dropdown.Item onClick={() => setSortOrder("desc")}>Newest to Oldest</Dropdown.Item>
