@@ -1,4 +1,5 @@
 import React from "react";
+import PMApp from "../components/PMApp";
 import {Container, Row, Col, Card, Image} from "react-bootstrap";
 export default function AboutWISE (props) {
     return (
@@ -129,11 +130,39 @@ export default function AboutWISE (props) {
                     </Card>
                 </Col>
                 <Col md={6} sm={12}>
-                    <Image src="/p1/community_life/seminar_1.png" alt="WISE Seminar" 
+                    <Image src="/p1/community_life/seminar_1.png" alt="residents at the WISE Seminar" 
                     fluid style={{borderRadius:"8px", width:"100%", height:"500px", objectFit:"cover", objectPosition:"bottom"}}/>
                 </Col>
             </Row>
-            
+            <Row className="mb-4">
+                <Col md={6} sm={12} className="mb-4">
+                    <Image src="/p1/community_life/peer_mentors.png" alt="WISE Peer Mentors group photo" 
+                    fluid style={{borderRadius:"8px", width:"100%", height:"500px", objectFit:"cover", objectPosition:"bottom"}}/>
+                </Col>
+                <Col md={6} sm={12}>
+                <Card className="mb-4 text-start">
+                    <h2 style={{marginBottom:"30px"}}> Apply to be a WISE Peer Mentor!</h2>
+                    <p>
+                        Peer Mentors support WISE by building meaningful mentoring relationships with residents and 
+                        supporting the programmatic and outreach goals of the WISE residential learning community. 
+                        Mentoring will take place through formal and informal interactions that include providing guidance, 
+                        information, academic and career development resources and support.
+                    </p>
+                    <ul>
+                        <li>Must have lived in the WISE Residential Learning Community.</li>
+                        <li>By start of employment must have completed 2 semesters of college post high school (summer school does not count as a semester). </li>
+                        <li>During pre-employment and employment, a student staff member must abide by the University Residence Halls Contract, the Student Housing Handbook and the University of Wisconsin System academic and non-academic policies and expectations. </li>
+                        <li>Must be able to attend all training dates. </li>
+                        <li>All applicants must be currently enrolled and maintain enrollment through the employment period.</li>
+                    </ul>
+                </Card>
+                </Col>
+            </Row>
+            <Row className="mb-4">
+                <Card className="mb-4">
+                    <PMApp/>
+                </Card>
+            </Row>
         </Container>
         </div>
     )

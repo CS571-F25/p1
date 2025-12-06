@@ -14,7 +14,7 @@ export default function NavBar() {
                     height = "8.5%"
                     className = "d-inline-block align-top me-3"
                 />
-                <Navbar.Brand as = {Link} to = "/" style = {{ color: "teal", fontweight: "bold" }}>
+                <Navbar.Brand as = {Link} to = "/" style = {{ color: "blue", fontweight: "bold" }}>
                     WISE @ UW-Madison 
                 </Navbar.Brand>
 
