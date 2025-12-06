@@ -13,20 +13,21 @@ import StayConnected from './pages/StayConnected';
 import WISEEvents from './pages/WISEEvents';
 
 function App() {
-  return <HashRouter>
-    <NavBar/>
-    <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/about" element={<AboutWISE/>}></Route>
-      <Route path="/community" element={<CommunityLife/>}></Route>
-      <Route path="/staff" element={<FacultyStaff/>}></Route>
-      <Route path="/connect" element={<StayConnected/>}></Route>
-      <Route path="/events" element={<WISEEvents/>}></Route>
-    </Routes>
-    <ReactionButton />
-    <Footer/>
-  </HashRouter>
- 
-}
-
-export default App
+  return (
+    <div className="App">
+      <HashRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutWISE />} />
+          <Route path="/community" element={<CommunityLife />} />
+          <Route path="/staff" element={<FacultyStaff />} />
+          <Route path="/connect" element={<StayConnected />} />
+          <Route path="/events" element={<WISEEvents />} />
+        </Routes>
+        <ReactionButton />
+        <Footer />
+      </HashRouter>
+    </div>
+  );
+} export default App

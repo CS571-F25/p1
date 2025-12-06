@@ -3,7 +3,7 @@ import PMApp from "../components/PMApp";
 import {Container, Row, Col, Card, Image} from "react-bootstrap";
 export default function AboutWISE (props) {
     return (
-        <div style = {{ backgroundColor: "#93d3e6"}}>
+        <div style = {{ backgroundColor: "#beebf7"}}>
         <Container style={{paddingTop: "120px", marginBottom:"2rem"}}>
             <h1 className="text-center mb-4">About WISE</h1>
             <Row className="mb-4">

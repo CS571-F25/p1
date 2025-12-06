@@ -55,7 +55,7 @@ export default function StayConnected() {
     };
 
   return (
-    <div style = {{ backgroundColor: "#93d3e6"}}>
+    <div style = {{ backgroundColor: "#beebf7"}}>
     <Container className = "py-5">
       <h1 className = "text-center my-5">Stay Connected With Us</h1>
 

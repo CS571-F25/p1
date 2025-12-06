@@ -6,12 +6,13 @@ export default function PMApp() {
         name: "",
         pronouns: "",
         email: "",
-        year: "",
+        major:"",
         experience: "",
         why: ""
     });
 
     const [submitted, setSubmitted] = useState(false);
+    const [error, setError] = useState("");
 
     function handleChange(e) {
         setFormData({
@@ -20,8 +21,14 @@ export default function PMApp() {
         });
     }
 
-    async function handleSubmit(e) {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+
+        if (!formData.name || !formData.pronouns || !formData.email || !formData.major || !formData.experience || !formData.why) {
+            setError("Please fill in all fields before submitting.");
+            return;
+        }
+        setError("");
 
         try {
             const response = await fetch("https://cs571api.cs.wisc.edu/rest/f25/bucket/pmapps", {
@@ -38,6 +45,14 @@ export default function PMApp() {
             }
 
             setSubmitted(true); 
+            setFormData({
+                name: "",
+                pronouns: "",
+                email: "",
+                major:"",
+                experience: "",
+                why: ""
+            });
         } catch (err) {
             console.error("Error submitting form:", err);
         }

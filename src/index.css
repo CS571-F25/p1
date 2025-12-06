@@ -24,10 +24,23 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto; /* pushes footer to bottom */
+  padding: 20px;
+  background: lightgray;
+  text-align: center;
 }
 
 h1 {
