@@ -1,6 +1,7 @@
 import React from "react"; 
 import photos from "../assets/community.json";
 import PhotoGallery from "../components/PhotoGallery";
+import PMApp from "../components/PMApp";
 import {Row, Col, Container, Image} from "react-bootstrap";
 
 export default function CommunityLife () {
@@ -53,6 +54,28 @@ export default function CommunityLife () {
                 <Col md={4} sm={12} className="mb-4">
                     <Image src="/p1/community_life/crafts_1.png" alt="WISE Den"
                         style={{width:"100%", objectFit:"cover", borderRadius:"8px"}}/>
+                </Col>
+            </Row>
+            <Row classname="gy-4">
+                <h2 style={{marginBottom:"30px"}}> Apply to be a WISE Peer Mentor!</h2>
+                <Col md={6} sm={12} className="mb-4 text-start">
+                    <p>
+                        Peer Mentors support WISE by building meaningful mentoring relationships with residents and 
+                        supporting the programmatic and outreach goals of the WISE residential learning community. 
+                        Mentoring will take place through formal and informal interactions that include providing guidance, 
+                        information, academic and career development resources and support.
+                    </p>
+                        <ul>
+                            <li>Must have lived in the WISE Residential Learning Community.</li>
+                            <li>By start of employment must have completed 2 semesters of college post high school (summer school does not count as a semester). </li>
+                            <li>During pre-employment and employment, a student staff member must abide by the University Residence Halls Contract, the Student Housing Handbook and the University of Wisconsin System academic and non-academic policies and expectations. </li>
+                            <li>Must be able to attend all training dates. </li>
+                            <li>All applicants must be currently enrolled and maintain enrollment through the employment period.</li>
+                        </ul>
+                </Col>
+                <Col md={6} sm={12} className="mb-4">
+                    
+                    <PMApp/>
                 </Col>
             </Row>
         </Container>
