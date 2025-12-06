@@ -3,11 +3,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 export default function Home (props) {
     return <Container fluid={true} style={{paddingTop: "120px", marginBottom:"2rem"}}>
-        <br/>
         <Row>
             <Col xs={12} lg={12} xl={12} xxl={12} style={{alignText: 'center' }}>
-            <br/>
-            <br/>
                 <h1>Welcome to WISE Learning Community!</h1>
                 <h2>Connecting First Year Women in Science & Engineering!</h2>
             </Col>
