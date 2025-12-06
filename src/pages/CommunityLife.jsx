@@ -76,7 +76,7 @@ export default function CommunityLife () {
                 <Col md={6} sm={12} className="mb-4">
                 {/* /p1/public/ohm_1.png
                     /p1/public/ohm_2.png */}
-                    <Image src="/p1/public/ohm_1.png" alt="WISE Alumni - OHM"
+                    <Image src="/p1/ohm_1.png" alt="WISE Alumni - OHM"
                         style={{width:"100%", objectFit:"cover", borderRadius:"8px"}}/>
                 </Col>
             </Row>
