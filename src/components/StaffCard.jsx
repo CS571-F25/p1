@@ -20,16 +20,16 @@ export default function StaffCard(props) {
       <Card.Body className = "d-flex flex-column justify-content-between" style={{ color: "#1a1a1a" }}>
         <div>
             {/* Staff Name */}
-          <Card.Title as = "h4" style = {{ fontWeight: "bold", textAlign: "center", display: "flex", alignItems: "center", 
+          <Card.Title as = "h2" style = {{ fontWeight: "bold", textAlign: "center", display: "flex", alignItems: "center", 
             flexDirection: "column", wordBreak: "keep-all", overflowWrap: "break-word"}}>
                 {props.name}
           </Card.Title>
 
           {/* Staff Title */}
-          <Card.Subtitle as = "h5" className = "mb-2 text-muted">{props.title}</Card.Subtitle>
+          <Card.Subtitle as = "h3" className = "mb-2 text-muted">{props.title}</Card.Subtitle>
         </div>
 
-        <Card.Text className = "mt-2">
+        <Card.Text as = "h3" className = "mt-2">
             {/* Staff Email */}
           <a href = {`mailto:${props.email}`}
            aria-label={`Email: ${props.email}`}
